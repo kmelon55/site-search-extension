@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Search Extension",
+  "version": "0.1",
+  "description": "An extension that provides search options for different search engines.",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "omnibox": {
+    "keyword": "\\"
+  },
+  "permissions": ["tabs"]
+}
